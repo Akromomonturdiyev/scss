@@ -1,5 +1,8 @@
 .header {
-  color: aqua;
+  width: 100%;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .container {
@@ -23,7 +26,7 @@
 
 .logo {
   display: block;
-  color: #000;
+  color: white;
 }
 
 .header__list {
@@ -51,11 +54,120 @@
   color: aqua;
 }
 
+.main {
+  padding-bottom: 100px;
+}
+
+.first__section-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.title {
+  width: 600px;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.text {
+  width: 900px;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.span {
+  width: 150px;
+  border: 1px solid black;
+  background-color: black;
+  padding: 10px;
+}
+
+.link {
+  width: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.image2 {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+}
+
+.list__item {
+  margin-right: 150px;
+}
+
+footer {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  padding-top: 170px;
+}
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 25px;
+  list-style: none;
+}
+
+.footer__link {
+  color: white;
+  text-decoration: none;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
+  position: fixed;
   margin: 0;
+  width: 100%;
+  height: 100vh;
 }/*# sourceMappingURL=main.css.map */
