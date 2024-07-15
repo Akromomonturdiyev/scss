@@ -1,5 +1,5 @@
-@use "./block/main";
-@use "./block/header";
-@use "./block/main";
-@use "./block/footer";
-@use "../css/main.css"
+@use "./block/block";
+@use "./mixins";
+@use "./generals";
+@use "./varibles";
+@use "./normalaze"
